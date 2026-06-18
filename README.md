@@ -41,25 +41,16 @@ If you are a free TryHackMe user, you are probably familiar with this limit:
 
 ## 📦 Installation Guide
 
-Follow these quick steps to get up and running:
+Since the official `squawker-vpn_1.0.0_amd64.deb` package is already pre-included directly in this repository, installing it is extremely simple:
 
-### 1. Download the Squawker VPN `.deb` Package
-Visit the **[TryHackMe Access Page](https://tryhackme.com/access)** and download the **Squawker VPN (Beta)** package for Linux (`.deb` format).
-
-### 2. Clone the Repository
+### 1. Clone the Repository
 Clone this repository to your local machine and navigate into the folder:
 ```bash
 git clone https://github.com/utxdev/Squawker-Arch.git
 cd Squawker-Arch
 ```
 
-### 3. Place the `.deb` File
-Move the downloaded `squawker-vpn_1.0.0_amd64.deb` file inside the cloned `Squawker-Arch` directory:
-```bash
-mv ~/Downloads/squawker-vpn_1.0.0_amd64.deb .
-```
-
-### 4. Run the Installer
+### 2. Run the Installer
 Make the installer script executable and run it:
 ```bash
 chmod +x install.sh
