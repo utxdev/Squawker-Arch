@@ -50,8 +50,15 @@ git clone https://github.com/utxdev/Squawker-Arch.git
 cd Squawker-Arch
 ```
 
-### 2. Run the Installer
-Make the installer script executable and run it:
+### 2. Install Dependencies
+Make the dependency script executable and run it. This safely ensures you have all required packages (`libarchive`, `gtk3`, `webkit2gtk`) without breaking your system:
+```bash
+chmod +x install-deps.sh
+./install-deps.sh
+```
+
+### 3. Run the Installer
+Make the main installer script executable and run it to install Squawker VPN:
 ```bash
 chmod +x install.sh
 ./install.sh
