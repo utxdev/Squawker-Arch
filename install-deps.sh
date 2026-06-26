@@ -26,7 +26,7 @@ fi
 DEPENDENCIES=(
     "libarchive"
     "gtk3"
-    "webkit2gtk"
+    "libayatana-appindicator"
 )
 
 info "Checking for required dependencies..."
