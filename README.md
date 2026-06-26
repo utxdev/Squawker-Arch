@@ -18,7 +18,7 @@ Normally, TryHackMe only packages and distributes the new Squawker VPN client (B
 If you are a free TryHackMe user, you are probably familiar with this limit:
 
 <p align="center">
-  <img src="assets/attackbox_limit.png" alt="TryHackMe 60-minute limit" width="700"/>
+  <img src="https://i.ibb.co/TDKVCSQs/attackbox-limit.png" alt="TryHackMe 60-minute limit" width="700"/>
 </p>
 
 > [!IMPORTANT]
